@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter.ttf) format("truetype");
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 25px;
+  margin-top: 20px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #0f0f2b;
+}
+.nav__link:hover {
+  color: #e2a661;
+}
+.header__title {
+  max-width: 709px;
+  margin-top: 120px;
+  margin-left: 90px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  color: #0f0f2b;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #e2a661;
+}
+.header__description {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0f0f2b;
+  margin-left: 90px;
+}
+.header__image {
+  position: absolute;
+  right: 150px;
+  top: -42px;
+}
+.header__retangulo {
+  box-sizing: border-box;
+  background-color: #e2a661;
+  width: 100%;
+  height: 150px;
+}
+.frame {
+  width: 90%;
+  height: 80;
+  border: none;
+  margin-top: 50px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 20px;
+  max-width: 1000px;
+  margin: 200px auto 50px;
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 35px 35px 60px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px #e2a661;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+.card_title {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #e2a661;
+}
+.card_image {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  min-height: 100px;
+  background-color: #0f0f2b;
+}
+
+.footer-author {
+  font-size: 24px;
+  color: #c69155;
+  margin: auto;
+}
